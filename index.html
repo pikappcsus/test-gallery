@@ -1,879 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Photo Gallery - Home</title>
-      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
-      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
-      <link rel="stylesheet" href="public/core.css" />
-      <link rel="stylesheet" href="public/theme.css" />
-  </head>
+<head>
 
-  <body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    
-    <div id="container">
-    
-      <!--
-        Gallery title
-      -->
-      <header>
-        <h1><a href="index.html">Photo Gallery</a></h1>
-      </header>
-    
-      <!--
-        Breadcrumbs of parent albums
-      -->
-      <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>
-      </nav>
-    
-      <!--
-        Nested albums, if any
-      -->
-      <div id="albums">
+  <title>Home - Pi Kappa Phi Epsilon Nu</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">&Pi;&Kappa;&Phi; &#917;&#925; - CSUS</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+              <a class="dropdown-item" href="https://www.instagram.com/pikappsacstate/">Instagram</a>
+              <a class="dropdown-item" href="https://twitter.com/PiKappSacState">Twitter</a>
+              <a class="dropdown-item" href="https://pikapp.org/">National Website</a>
+              <a class="dropdown-item" href="https://www.classy.org/team/158033">Donate</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    
-      <!--
-        All photos and videos
-      -->
-      <ul id="media" class="clearfix">
-          
-            <li data-src="media/large/1423706544.jpg"
-                data-sub-html=""
-                data-download-url="media/original/1423706544.jpg"
-                
-                data-filename="1423706544.jpg"
-          
-              >
-              <a href="media/original/1423706544.jpg">
-                <img src="media/thumbs/1423706544.jpg"
-                     width="120"
-                     height="120"
-                     alt="1423706544.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/1492980707.jpeg"
-                data-sub-html=""
-                data-download-url="media/original/1492980707.jpeg"
-                
-                data-filename="1492980707.jpeg"
-          
-              >
-              <a href="media/original/1492980707.jpeg">
-                <img src="media/thumbs/1492980707.jpeg"
-                     width="120"
-                     height="120"
-                     alt="1492980707.jpeg" />
-              </a>
-            </li>      
-            <li data-src="media/large/6510844_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/6510844_orig.jpg"
-                
-                data-filename="6510844_orig.jpg"
-          
-              >
-              <a href="media/original/6510844_orig.jpg">
-                <img src="media/thumbs/6510844_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="6510844_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/6553721_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/6553721_orig.jpg"
-                
-                data-filename="6553721_orig.jpg"
-          
-              >
-              <a href="media/original/6553721_orig.jpg">
-                <img src="media/thumbs/6553721_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="6553721_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/6587971_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/6587971_orig.jpg"
-                
-                data-filename="6587971_orig.jpg"
-          
-              >
-              <a href="media/original/6587971_orig.jpg">
-                <img src="media/thumbs/6587971_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="6587971_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/6617377_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/6617377_orig.jpg"
-                
-                data-filename="6617377_orig.jpg"
-          
-              >
-              <a href="media/original/6617377_orig.jpg">
-                <img src="media/thumbs/6617377_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="6617377_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/6837868_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/6837868_orig.jpg"
-                
-                data-filename="6837868_orig.jpg"
-          
-              >
-              <a href="media/original/6837868_orig.jpg">
-                <img src="media/thumbs/6837868_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="6837868_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7105959_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7105959_orig.jpg"
-                
-                data-filename="7105959_orig.jpg"
-          
-              >
-              <a href="media/original/7105959_orig.jpg">
-                <img src="media/thumbs/7105959_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7105959_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7115605_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7115605_orig.jpg"
-                
-                data-filename="7115605_orig.jpg"
-          
-              >
-              <a href="media/original/7115605_orig.jpg">
-                <img src="media/thumbs/7115605_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7115605_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7145621_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7145621_orig.jpg"
-                
-                data-filename="7145621_orig.jpg"
-          
-              >
-              <a href="media/original/7145621_orig.jpg">
-                <img src="media/thumbs/7145621_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7145621_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7174146_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7174146_orig.jpg"
-                
-                data-filename="7174146_orig.jpg"
-          
-              >
-              <a href="media/original/7174146_orig.jpg">
-                <img src="media/thumbs/7174146_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7174146_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7271433_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7271433_orig.jpg"
-                
-                data-filename="7271433_orig.jpg"
-          
-              >
-              <a href="media/original/7271433_orig.jpg">
-                <img src="media/thumbs/7271433_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7271433_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7294444_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7294444_orig.jpg"
-                
-                data-filename="7294444_orig.jpg"
-          
-              >
-              <a href="media/original/7294444_orig.jpg">
-                <img src="media/thumbs/7294444_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7294444_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7384431_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7384431_orig.jpg"
-                
-                data-filename="7384431_orig.jpg"
-          
-              >
-              <a href="media/original/7384431_orig.jpg">
-                <img src="media/thumbs/7384431_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7384431_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7436590_orig.png"
-                data-sub-html=""
-                data-download-url="media/original/7436590_orig.png"
-                
-                data-filename="7436590_orig.png"
-          
-              >
-              <a href="media/original/7436590_orig.png">
-                <img src="media/thumbs/7436590_orig.png"
-                     width="120"
-                     height="120"
-                     alt="7436590_orig.png" />
-              </a>
-            </li>      
-            <li data-src="media/large/7603500_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7603500_orig.jpg"
-                
-                data-filename="7603500_orig.jpg"
-          
-              >
-              <a href="media/original/7603500_orig.jpg">
-                <img src="media/thumbs/7603500_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7603500_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7719430_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7719430_orig.jpg"
-                
-                data-filename="7719430_orig.jpg"
-          
-              >
-              <a href="media/original/7719430_orig.jpg">
-                <img src="media/thumbs/7719430_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7719430_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/7894423_orig.png"
-                data-sub-html=""
-                data-download-url="media/original/7894423_orig.png"
-                
-                data-filename="7894423_orig.png"
-          
-              >
-              <a href="media/original/7894423_orig.png">
-                <img src="media/thumbs/7894423_orig.png"
-                     width="120"
-                     height="120"
-                     alt="7894423_orig.png" />
-              </a>
-            </li>      
-            <li data-src="media/large/7931642_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/7931642_orig.jpg"
-                
-                data-filename="7931642_orig.jpg"
-          
-              >
-              <a href="media/original/7931642_orig.jpg">
-                <img src="media/thumbs/7931642_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="7931642_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/8078472_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/8078472_orig.jpg"
-                
-                data-filename="8078472_orig.jpg"
-          
-              >
-              <a href="media/original/8078472_orig.jpg">
-                <img src="media/thumbs/8078472_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="8078472_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/8124045_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/8124045_orig.jpg"
-                
-                data-filename="8124045_orig.jpg"
-          
-              >
-              <a href="media/original/8124045_orig.jpg">
-                <img src="media/thumbs/8124045_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="8124045_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/8342772_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/8342772_orig.jpg"
-                
-                data-filename="8342772_orig.jpg"
-          
-              >
-              <a href="media/original/8342772_orig.jpg">
-                <img src="media/thumbs/8342772_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="8342772_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/8402117_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/8402117_orig.jpg"
-                
-                data-filename="8402117_orig.jpg"
-          
-              >
-              <a href="media/original/8402117_orig.jpg">
-                <img src="media/thumbs/8402117_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="8402117_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/8501672_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/8501672_orig.jpg"
-                
-                data-filename="8501672_orig.jpg"
-          
-              >
-              <a href="media/original/8501672_orig.jpg">
-                <img src="media/thumbs/8501672_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="8501672_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9038096_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9038096_orig.jpg"
-                
-                data-filename="9038096_orig.jpg"
-          
-              >
-              <a href="media/original/9038096_orig.jpg">
-                <img src="media/thumbs/9038096_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9038096_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9202795_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9202795_orig.jpg"
-                
-                data-filename="9202795_orig.jpg"
-          
-              >
-              <a href="media/original/9202795_orig.jpg">
-                <img src="media/thumbs/9202795_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9202795_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9277602_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9277602_orig.jpg"
-                
-                data-filename="9277602_orig.jpg"
-          
-              >
-              <a href="media/original/9277602_orig.jpg">
-                <img src="media/thumbs/9277602_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9277602_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9293967_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9293967_orig.jpg"
-                
-                data-filename="9293967_orig.jpg"
-          
-              >
-              <a href="media/original/9293967_orig.jpg">
-                <img src="media/thumbs/9293967_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9293967_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9407640_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9407640_orig.jpg"
-                
-                data-filename="9407640_orig.jpg"
-          
-              >
-              <a href="media/original/9407640_orig.jpg">
-                <img src="media/thumbs/9407640_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9407640_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9636409_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9636409_orig.jpg"
-                
-                data-filename="9636409_orig.jpg"
-          
-              >
-              <a href="media/original/9636409_orig.jpg">
-                <img src="media/thumbs/9636409_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9636409_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9686335_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9686335_orig.jpg"
-                
-                data-filename="9686335_orig.jpg"
-          
-              >
-              <a href="media/original/9686335_orig.jpg">
-                <img src="media/thumbs/9686335_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9686335_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9763897_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9763897_orig.jpg"
-                
-                data-filename="9763897_orig.jpg"
-          
-              >
-              <a href="media/original/9763897_orig.jpg">
-                <img src="media/thumbs/9763897_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9763897_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9891938_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9891938_orig.jpg"
-                
-                data-filename="9891938_orig.jpg"
-          
-              >
-              <a href="media/original/9891938_orig.jpg">
-                <img src="media/thumbs/9891938_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9891938_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9903063_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9903063_orig.jpg"
-                
-                data-filename="9903063_orig.jpg"
-          
-              >
-              <a href="media/original/9903063_orig.jpg">
-                <img src="media/thumbs/9903063_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9903063_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/9938211_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/9938211_orig.jpg"
-                
-                data-filename="9938211_orig.jpg"
-          
-              >
-              <a href="media/original/9938211_orig.jpg">
-                <img src="media/thumbs/9938211_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="9938211_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/ceaud0151beuz4mjbiknf-4onkzy_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/ceaud0151beuz4mjbiknf-4onkzy_orig.jpg"
-                
-                data-filename="ceaud0151beuz4mjbiknf-4onkzy_orig.jpg"
-          
-              >
-              <a href="media/original/ceaud0151beuz4mjbiknf-4onkzy_orig.jpg">
-                <img src="media/thumbs/ceaud0151beuz4mjbiknf-4onkzy_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="ceaud0151beuz4mjbiknf-4onkzy_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg"
-                
-                data-filename="d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg"
-          
-              >
-              <a href="media/original/d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg">
-                <img src="media/thumbs/d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="d51ud015bdpx2doxh7iq-3wlnr2_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg"
-                
-                data-filename="dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg">
-                <img src="media/thumbs/dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="dd1ud0156q5rw59w8iy6-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/ddcud0151axombfo20k86-4onkzy_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/ddcud0151axombfo20k86-4onkzy_orig.jpg"
-                
-                data-filename="ddcud0151axombfo20k86-4onkzy_orig.jpg"
-          
-              >
-              <a href="media/original/ddcud0151axombfo20k86-4onkzy_orig.jpg">
-                <img src="media/thumbs/ddcud0151axombfo20k86-4onkzy_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="ddcud0151axombfo20k86-4onkzy_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/dffud01537waf1m9fn9t-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/dffud01537waf1m9fn9t-ln8epm_orig.jpg"
-                
-                data-filename="dffud01537waf1m9fn9t-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/dffud01537waf1m9fn9t-ln8epm_orig.jpg">
-                <img src="media/thumbs/dffud01537waf1m9fn9t-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="dffud01537waf1m9fn9t-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/dhjud015rzpablfrdhrd-qr8i4i_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/dhjud015rzpablfrdhrd-qr8i4i_orig.jpg"
-                
-                data-filename="dhjud015rzpablfrdhrd-qr8i4i_orig.jpg"
-          
-              >
-              <a href="media/original/dhjud015rzpablfrdhrd-qr8i4i_orig.jpg">
-                <img src="media/thumbs/dhjud015rzpablfrdhrd-qr8i4i_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="dhjud015rzpablfrdhrd-qr8i4i_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/e0gud015n7yd41jwodsb-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/e0gud015n7yd41jwodsb-ln8epm_orig.jpg"
-                
-                data-filename="e0gud015n7yd41jwodsb-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/e0gud015n7yd41jwodsb-ln8epm_orig.jpg">
-                <img src="media/thumbs/e0gud015n7yd41jwodsb-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="e0gud015n7yd41jwodsb-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/e0jud015143002zr5sb7q-u6826z_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/e0jud015143002zr5sb7q-u6826z_orig.jpg"
-                
-                data-filename="e0jud015143002zr5sb7q-u6826z_orig.jpg"
-          
-              >
-              <a href="media/original/e0jud015143002zr5sb7q-u6826z_orig.jpg">
-                <img src="media/thumbs/e0jud015143002zr5sb7q-u6826z_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="e0jud015143002zr5sb7q-u6826z_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/e3cud0151v8udllkn6tui-f7nz1g_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/e3cud0151v8udllkn6tui-f7nz1g_orig.jpg"
-                
-                data-filename="e3cud0151v8udllkn6tui-f7nz1g_orig.jpg"
-          
-              >
-              <a href="media/original/e3cud0151v8udllkn6tui-f7nz1g_orig.jpg">
-                <img src="media/thumbs/e3cud0151v8udllkn6tui-f7nz1g_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="e3cud0151v8udllkn6tui-f7nz1g_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/eccud015pjw9ddst4w41-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/eccud015pjw9ddst4w41-ln8epm_orig.jpg"
-                
-                data-filename="eccud015pjw9ddst4w41-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/eccud015pjw9ddst4w41-ln8epm_orig.jpg">
-                <img src="media/thumbs/eccud015pjw9ddst4w41-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="eccud015pjw9ddst4w41-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/f00ud0151co8qollv2v3r-4rjlmm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/f00ud0151co8qollv2v3r-4rjlmm_orig.jpg"
-                
-                data-filename="f00ud0151co8qollv2v3r-4rjlmm_orig.jpg"
-          
-              >
-              <a href="media/original/f00ud0151co8qollv2v3r-4rjlmm_orig.jpg">
-                <img src="media/thumbs/f00ud0151co8qollv2v3r-4rjlmm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="f00ud0151co8qollv2v3r-4rjlmm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/fdgud0151o9j9vlhe94rc-sectqj_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/fdgud0151o9j9vlhe94rc-sectqj_orig.jpg"
-                
-                data-filename="fdgud0151o9j9vlhe94rc-sectqj_orig.jpg"
-          
-              >
-              <a href="media/original/fdgud0151o9j9vlhe94rc-sectqj_orig.jpg">
-                <img src="media/thumbs/fdgud0151o9j9vlhe94rc-sectqj_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="fdgud0151o9j9vlhe94rc-sectqj_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg"
-                
-                data-filename="fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg"
-          
-              >
-              <a href="media/original/fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg">
-                <img src="media/thumbs/fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="fj0ud01518vwlrgxb3h6k-c7ei3e_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/fj5ud0152gavzis00my1-l3rz6l_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/fj5ud0152gavzis00my1-l3rz6l_orig.jpg"
-                
-                data-filename="fj5ud0152gavzis00my1-l3rz6l_orig.jpg"
-          
-              >
-              <a href="media/original/fj5ud0152gavzis00my1-l3rz6l_orig.jpg">
-                <img src="media/thumbs/fj5ud0152gavzis00my1-l3rz6l_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="fj5ud0152gavzis00my1-l3rz6l_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/g96ud0151whxiie1eqk1k-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/g96ud0151whxiie1eqk1k-ln8epm_orig.jpg"
-                
-                data-filename="g96ud0151whxiie1eqk1k-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/g96ud0151whxiie1eqk1k-ln8epm_orig.jpg">
-                <img src="media/thumbs/g96ud0151whxiie1eqk1k-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="g96ud0151whxiie1eqk1k-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/h10ud01514qmu8e3etpc7-43abgp_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/h10ud01514qmu8e3etpc7-43abgp_orig.jpg"
-                
-                data-filename="h10ud01514qmu8e3etpc7-43abgp_orig.jpg"
-          
-              >
-              <a href="media/original/h10ud01514qmu8e3etpc7-43abgp_orig.jpg">
-                <img src="media/thumbs/h10ud01514qmu8e3etpc7-43abgp_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="h10ud01514qmu8e3etpc7-43abgp_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/hccud0151f38nthjmae9a-4onkzy_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/hccud0151f38nthjmae9a-4onkzy_orig.jpg"
-                
-                data-filename="hccud0151f38nthjmae9a-4onkzy_orig.jpg"
-          
-              >
-              <a href="media/original/hccud0151f38nthjmae9a-4onkzy_orig.jpg">
-                <img src="media/thumbs/hccud0151f38nthjmae9a-4onkzy_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="hccud0151f38nthjmae9a-4onkzy_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg"
-                
-                data-filename="hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg"
-          
-              >
-              <a href="media/original/hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg">
-                <img src="media/thumbs/hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="hh5ud015u0hwhbo2phb8-ln8epm_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/icjud015jcu1bxdg2wy6-jk6efn_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/icjud015jcu1bxdg2wy6-jk6efn_orig.jpg"
-                
-                data-filename="icjud015jcu1bxdg2wy6-jk6efn_orig.jpg"
-          
-              >
-              <a href="media/original/icjud015jcu1bxdg2wy6-jk6efn_orig.jpg">
-                <img src="media/thumbs/icjud015jcu1bxdg2wy6-jk6efn_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="icjud015jcu1bxdg2wy6-jk6efn_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/jcfud0151t3cr95dsilte-5nrawy_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/jcfud0151t3cr95dsilte-5nrawy_orig.jpg"
-                
-                data-filename="jcfud0151t3cr95dsilte-5nrawy_orig.jpg"
-          
-              >
-              <a href="media/original/jcfud0151t3cr95dsilte-5nrawy_orig.jpg">
-                <img src="media/thumbs/jcfud0151t3cr95dsilte-5nrawy_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="jcfud0151t3cr95dsilte-5nrawy_orig.jpg" />
-              </a>
-            </li>      
-            <li data-src="media/large/jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg"
-                data-sub-html=""
-                data-download-url="media/original/jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg"
-                
-                data-filename="jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg"
-          
-              >
-              <a href="media/original/jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg">
-                <img src="media/thumbs/jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg"
-                     width="120"
-                     height="120"
-                     alt="jh2ud01514d0pb6gh7z8i-4onkzy_orig.jpg" />
-              </a>
-            </li>  </ul>
-    
-      <!--
-        Pagination
-      -->
-    
-      <!--
-        Zip file link
-      -->
-    
-    
-      <!--
-        Optional footer
-      -->
-      <footer>
-        <p>yeet Text</p>
-      </footer>
-    
     </div>
-    <!-- Video loader -->
-    <div id="videos">
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('img/9.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Our Mission</h3>
+            <p>To create an uncommon and lifelong brotherhood that develops leaders and encourages service to others for the betterment of our communities.</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/4.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Our Vision</h3>
+            <p>A future where every Pi Kappa Phi embraces his role as a leader, puts service before self and improves the world around him.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/8.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Our Public Values</h3>
+            <p>Common Loyalty, Personal Responsibility, Achievement, Accountability, Campus Involvement, Responsible Citizenship, Lifelong Commitment. </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+	
+    <h1 class="my-4">Pi Kappa Phi - Epsilon Nu Chapter at Sacramento State</h1>
+	
+
+    <!-- Portfolio Section -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="img/ae.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Massive ragers</a>
+            </h4>
+			<div class="card-footer">
+				<p class="card-text">You ever had preworkout in your drink? Now you can</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+				<a id="about">
+			</div>
+		  </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="img/toss.jpeg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Nonstop tossing them dice</a>
+            </h4>
+			<div class="card-footer">
+				<p class="card-text">Because its the RESPONSIBLE way to get sloshed in a pandemic.</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="img/fans.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">big booty women love us</a>
+            </h4>
+			<div class="card-footer">
+				<p class="card-text">PAWGS, Colombians, you name it; we got it!</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+    <!-- About Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="img/founders.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2>About Our Chapter</h2>
+        <p>Thank you for visiting the webpage for the Epsilon Nu Chapter of Pi Kappa Phi at California State University, Sacramento. You'll find  variety of information about our chapter and a lot of photos showing off our chapter.  For any questions you may have, please refer to the contact tab located above. </p>
+        <p>"THE SUCCESS OF PI KAPPA PHI CAN BE ATTRIBUTED TO TWO THINGS.  FROM THE BEGINNING WE HAD THE RIGHT PRINCIPLES.  BUT IN THAT REGARD, WE WERE NO DIFFERENT FROM OTHER ORGANIZATIONS WHICH START BRAVELY BUT FALL.  YES, IN 1904 WE SPARKED THE IDEA, BUT IT IS TO THOSE MEN WHO CAME AFTER US THAT WE OWE OUR WONDERFUL PI KAPPA PHI... WE HAVE GIVEN YOU THE PAST AS WE KNOW IT.  THE FUTURE WILL LEAVE WITH YOU."</p>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>On a quiet December evening in 1904 in Charleston, S.C., three friends--Andrew Kroeg, Simon Fogarty and Harry Mixson--made a choice to lead. Those three men chose to start their own fraternity. The three grew to seven; seven grew to eight; eight grew to 11. From the College of Charleston, they spread to nearby Presbyterian in 1907--and then to California in 1909. In just over four years, Pi Kappa Phi had become a truly national fraternity. Over the course of a century, a fraternity with humble beginnings has grown into a brotherhood of more than 100,000 strong--all because three men made a choice to lead.  </p>
+		<p>Our chapter was founded on February 27, 1982.  The chapter thrived at Sac State amassing over 200 alumni before being closed on October of 1996.  Epsilon Nu lay dormant until Spring 2012, when the national fraternity decided to bring Pi Kappa Phi back to campus. After over a year of preparation and hard work, the chapter was re-founded on November 16, 2013.  Since then the chapter has added to the history of Epsilon Nu and continues to grow and build it's presence at Sac State and in the Sacramento community. </p>
+      </div>
+	  <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="img/legends.jpg" alt="">
+      </div>
+    </div>
+	
+	
+	<hr>
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Are you or someone you know interested in joining our ogranization, or are you interested in fundraising with us? Please get in touch with our members by following this link :)</p>
+		
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href = "contact.html">Contact Us!</a>
+      </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="public/jquery.min.js"></script>
-    <!-- VideoJS -->
-    <script src="public/videojs/video.min.js"></script>
-    <!-- LightGallery -->
-    <script src="public/lightgallery/js/lightgallery.js"></script>
-    <script src="public/lightgallery/js/lg-autoplay.js"></script>
-    <script src="public/lightgallery/js/lg-pager.js"></script>
-    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
-    <script src="public/lightgallery/js/lg-video.js"></script>
-    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+  </div>
+  <!-- /.container -->
 
-    <script>
-      $(document).ready(function() {
-        $("#media").lightGallery({
-          thumbWidth: 80,
-          controls: true,
-          loop : false,
-          download: true,
-          counter: true,
-          videojs: true
-        });
-      });
-    </script>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Last updated March 2021</p>
+	  <p class="m-0 text-center text-white">Created by Wyatt</p>
+	  
+    </div>
+    <!-- /.container -->
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+</body>
 
 </html>
